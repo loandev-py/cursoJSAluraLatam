@@ -1,9 +1,11 @@
 //Variables
-let numeroSecreto = 5;
+let numeroSecreto = Math.floor(Math.random()*10)+10;
 var contadorTentativas = 0;
 let intentos = 1;
 //let palabraVeces = 'vez';
 let maximosIntentos = 3;
+
+//console.log(numeroSecreto);
 
 while (numeroUsuario != numeroSecreto) {
 
